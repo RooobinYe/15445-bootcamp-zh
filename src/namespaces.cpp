@@ -35,7 +35,7 @@
 // 这是声明命名空间的语法。
 namespace ABC {
     // We define a function spam in the ABC namespace. This is used in line 57.
-    // 我们在ABC命名空间中定义一个函数spam。这在第57行使用。
+    // 我们在ABC命名空间中定义一个函数spam。这在57（80）行使用。
     void spam(int a) { std::cout << "Hello from ABC::spam: " << a << std::endl; }
 
     // namespace DEF is a nested namespace, because it is declared inside namespace
